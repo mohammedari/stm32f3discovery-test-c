@@ -9,16 +9,21 @@ This project is written in C language and tested with "GNU Tools for ARM Embedde
 
 Build and Debug Steps
 ------
-
 1. Build project
+```bash
 make
+```
 
 2. Run OpenOCD
+```bash
 cd openocd
 sudo ./openocd.sh
+```
 
 3. Debug
+```bash
 make debug
+```
 
 Additional  Informations
 ------
